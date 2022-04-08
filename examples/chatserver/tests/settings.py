@@ -104,7 +104,6 @@ else:
         'django.contrib.auth.middleware.AuthenticationMiddleware',
         'django.contrib.messages.middleware.MessageMiddleware',
         'django.middleware.clickjacking.XFrameOptionsMiddleware',
-        'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     )
 
 # This setting is required to override the Django's main loop, when running in
